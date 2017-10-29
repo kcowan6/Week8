@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **1.5** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -52,9 +52,9 @@ On the Red site, if you change the id number to 10, you can see the non-public p
 
 GIF Walkthrough: <img src='https://media.giphy.com/media/l378s2kAIDYvHZaa4/giphy.gif' title='GIF Walkthrough Red 1' width='' alt='GIF Walkthrough Red 1' />
 
-Vulnerability #2 - Cross-Site Request Forgery: If a link to a malicious form is uploaded through the comments section of the Contact form, once the admin has logged in and accessed this form, the information for the user Samuel Hunter should be altered accordingly, exposing a major attack avenue on the page.
+Vulnerability #2 - Cross-Site Request Forgery: If a link to a malicious form is uploaded through the comments section of the Contact form, once the admin has logged in and accessed this form, the information for the user Ken Barker should be altered accordingly, exposing a major attack avenue on the page.
 
-GIF Walkthrough: <img src='' title='GIF Walkthrough Red 2' width='' alt='GIF Walkthrough Red 2' />
+GIF Walkthrough: <img src='https://media.giphy.com/media/3o7aD8L8Lk0fnERwQM/giphy.gif' title='GIF Walkthrough Red 2' width='' alt='GIF Walkthrough Red 2' />
 
 
 ## Notes

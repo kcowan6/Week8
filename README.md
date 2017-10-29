@@ -20,9 +20,9 @@ Vulnerability #1 - SQL Injection: A lack of input sanitization allows for hacker
 
 GIF Walkthrough: <img src='https://media.giphy.com/media/3o7aD8C3yG8WM8D9W8/giphy.gif' title='GIF Walkthrough Blue 1' width='' alt='GIF Walkthrough Blue 1' />
 
-Vulnerability #2: __________________
+Vulnerability #2 - Session Hijacking/Fixation: With the Blue site, if one logged onto the Red site with the Red site opened in a different tab, if you clicked the "Login" menu for the Red site, the user would already be on the admin page without ever having to actually input the login credentials.
 
-GIF Walkthrough: <img src='' title='GIF Walkthrough Blue 1' width='' alt='GIF Walkthrough Blue 1' />
+GIF Walkthrough: <img src='https://media.giphy.com/media/3ov9k8EZSdYuVWMAF2/giphy.gif' title='GIF Walkthrough Blue 2' width='' alt='GIF Walkthrough Blue 2' />
 
 
 ## Green
@@ -52,9 +52,9 @@ On the Red site, if you change the id number to 10, you can see the non-public p
 
 GIF Walkthrough: <img src='https://media.giphy.com/media/l378s2kAIDYvHZaa4/giphy.gif' title='GIF Walkthrough Red 1' width='' alt='GIF Walkthrough Red 1' />
 
-Vulnerability #2 - Session Hijacking/Fixation: With the Red site, if one logged onto the Red site with the Blue site opened in a different tab, if you clicked the "Login" menu for the Blue site, the user would already be on the admin page without ever having to actually input the login credentials.
+Vulnerability #2 - Cross-Site Request Forgery: If a link to a malicious form is uploaded through the comments section of the Contact form, once the admin has logged in and accessed this form, the information for the user Samuel Hunter should be altered accordingly, exposing a major attack avenue on the page.
 
-GIF Walkthrough: <img src='https://media.giphy.com/media/l378w4Cghs3u8nznq/giphy.gif' title='GIF Walkthrough Red 1' width='' alt='GIF Walkthrough Red 1' />
+GIF Walkthrough: <img src='' title='GIF Walkthrough Red 2' width='' alt='GIF Walkthrough Red 2' />
 
 
 ## Notes
